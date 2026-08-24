@@ -21,5 +21,6 @@ To resolve this dichotomy, this project constructs a **Hybrid Corporate Credit R
 * **Structural Distance to Default Solver:** Implement a numerical optimization solver for the Merton (1974) model to reverse-engineer unobservable Asset Value ($V_A$) and Asset Volatility ($\sigma_A$).
 * **Hybrid Predictive Modeling:** Develop ensemble classifiers (LightGBM/XGBoost) and survival models to predict corporate distress, comparing performance against Altman Z-Score baselines.
 * **Interpretability & Stress Testing:** Apply SHAP attribution to decompose risk drivers and evaluate portfolio Expected Loss ($EL$) under macro credit regime shifts.
+* 
 
 
