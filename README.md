@@ -2,12 +2,11 @@
 > **A Hybrid Credit Risk Architecture Combining Structural Merton Models with Machine Learning and Explainable AI (SHAP)**
 
 ----
--
 ### Research Motivation
 
 **Bridging Structural Credit Diagnostics and Dynamic Risk Architecture**
 
-While the foundational multi-asset stress-testing framework established an independent top-down validation layer for macroeconomic and systematic liquidity shocks, institutional capital deployment requires a granular, bottom-up exposure model at the corporate entity level. In cross-sectional alpha generation—such as the balance-sheet dynamics explored during the WorldQuant BRAIN International Quant Championship (IQC) 2026—statistical fundamental anomalies frequently mask underlying structural solvency risks and tail-event vulnerabilities.
+While the foundational multi-asset stress-testing framework established an independent top-down validation layer for macroeconomic and systematic liquidity shocks, institutional capital deployment requires a granular, bottom-up exposure model at the corporate entity level. In cross-sectional alpha generation—such as the balance-sheet dynamics explored during the WorldQuant BRAIN International Quant Championship (IQC) 2026—statistical fundamental anomalies frequently mask underlying structural solvency risks and tail-event vulnerabilities and currently thinking more comprehensive ideas. 
 
 Standard machine learning classifiers applied to corporate distress prediction often operate as opaque "black boxes," lacking theoretical grounding in capital structure dynamics and failing regulatory requirements for model interpretability (e.g., Basel III/IV frameworks). Conversely, traditional structural approaches like the Merton (1974) model offer explicit market-implied solvency metrics—such as Distance to Default ($DD$)—yet suffer from rigid assumptions when processing high-dimensional distress indicators.
 
