@@ -107,3 +107,16 @@ The engine incorporates a real-time scenario simulator allowing risk managers to
 * **Machine Learning:** XGBoost, LightGBM, Scikit-Learn
 * **Model Interpretability:** SHAP (SHapley Additive exPlanations)
 * **Visualization & Web App:** Matplotlib, Streamlit
+
+---
+
+### Macro Stress-Testing & Dynamic Scenario Analysis
+
+The engine incorporates a real-time macro-shock simulator that evaluates corporate resilience under extreme market regimes:
+
+* **Scenario Parameters:**
+  * **Interest Rate Shock:** $+200\text{bps}$ rate hike applied to interest-bearing liabilities.
+  * **Equity & Asset Shock:** $-30\%$ drawdown applied to market equity and asset metrics.
+* **Granular Impact Diagnosis:**
+  * Dynamically re-evaluates Merton Distance to Default ($DD$) and tree-based ensemble probabilities ($PD$).
+  * Utilizes SHAP Waterfall plots to identify feature-level stress triggers (e.g., interest burden explosion vs. profitability decay) under macro shifts.
